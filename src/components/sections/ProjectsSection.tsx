@@ -8,7 +8,7 @@ const ProjectsSection: React.FC = () => {
 
   const projects = [
     {
-      title: 'MERN Chat App',
+      title: 'VibeConnect',
       description: 'Real-time chat application built using MERN stack and Socket.IO. Enables seamless user communication with modern UI and real-time messaging capabilities.',
       image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: [
@@ -23,7 +23,7 @@ const ProjectsSection: React.FC = () => {
       featured: true,
     },
     {
-      title: 'AI Code Reviewer',
+      title: 'Refactora AI',
       description: 'Automated tool that uses Google Gemini API to review and suggest improvements to code. Helps developers write better, cleaner, and more efficient code.',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: [
