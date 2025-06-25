@@ -81,8 +81,8 @@ const HeroSection: React.FC = () => {
               </h1>
               <h2 className="text-lg sm:text-xl lg:text-xl text-white/80 font-light mb-4 leading-relaxed">
                 B.Tech CSE @ MANIT-Bhopal<br className="sm:hidden" />
-                <span className="hidden sm:inline"> | </span>
-                B.S. in AI & DS @ IIT Guwahati
+                {/*<span className="hidden sm:inline"> | </span>
+                B.S. in AI & DS @ IIT Guwahati*/}
               </h2>
               <h3 className="text-base sm:text-lg lg:text-lg text-gray-300 font-medium">
                 Full-Stack Developer & AI Enthusiast
@@ -134,7 +134,7 @@ const HeroSection: React.FC = () => {
         <motion.div variants={itemVariants} className="flex justify-center space-x-4 md:space-x-6 mb-12 md:mb-16">
           {[
             { icon: Github, href: 'https://github.com/saksham-1304', label: 'GitHub' },
-            { icon: Linkedin, href: 'https://linkedin.com/in/saksham-singh-rathore1304', label: 'LinkedIn' },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/saksham-singh-rathore1304/', label: 'LinkedIn' },
             { icon: Mail, href: 'mailto:sakshamsinghrathore1304@gmail.com', label: 'Contact' },
           ].map(({ icon: Icon, href, label }) => (
             <motion.a

@@ -73,10 +73,12 @@ const ExperienceSection: React.FC = () => {
         </motion.div>
 
         {/* Work Experience */}
+        {/*
         <div className="mb-12 md:mb-16">
           *<h3 className="text-xl md:text-2xl font-bold text-white mb-6 md:mb-8 text-center">Work Experience</h3>
           <div className="relative">
             {/* Timeline Line */}
+            {/*
             <div className="absolute left-4 md:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-green-400 to-blue-400 hidden md:block" />
 
             <div className="space-y-8 md:space-y-12">
@@ -89,6 +91,7 @@ const ExperienceSection: React.FC = () => {
                   className="relative md:ml-16"
                 >
                   {/* Timeline Dot */}
+                  {/*
                   <div className="absolute -left-12 md:-left-20 top-4 md:top-6 w-3 h-3 md:w-4 md:h-4 bg-green-400 rounded-full border-2 md:border-4 border-gray-900 hidden md:block" />
 
                   <div className="bg-black/20 backdrop-blur-sm rounded-xl p-4 md:p-8 border border-white/10 hover:border-green-400/50 transition-colors">
@@ -169,6 +172,7 @@ const ExperienceSection: React.FC = () => {
             </div>
           </div>
         </div>
+        */}
 
         {/* Position of Responsibility */}
         <div className="mb-12 md:mb-16">

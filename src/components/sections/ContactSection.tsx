@@ -92,7 +92,7 @@ const ContactSection: React.FC = () => {
     {
       icon: Phone,
       label: 'Phone-No',
-      value: '+93939333',
+      value: '+91 7489507499',
       href: '#',
       clickToCopy: false,
     },
@@ -100,14 +100,14 @@ const ContactSection: React.FC = () => {
 
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/saksham-1304', label: 'GitHub' },
-    { icon: FaLinkedin, href: 'https://linkedin.com/in/saksham-singh-rathore1304', label: 'LinkedIn' },
-    { icon: FaXTwitter, href: 'https://twitter.com/saksham_1304', label: 'X' },
-    { icon: FaInstagram, href: 'https://instagram.com/saksham_1304', label: 'Instagram' },
-    { icon: SiLeetcode, href: 'https://leetcode.com/u/saksham_1304', label: 'LeetCode' },
-    { icon: SiCodechef, href: 'https://www.codechef.com/users/saksham_1304', label: 'CodeChef' },
-    { icon: SiCodeforces, href: 'https://codeforces.com/profile/saksham_1304', label: 'Codeforces' },
-    { icon: SiStackoverflow, href: 'https://stackoverflow.com/users/your-stackoverflow-id', label: 'Stack Overflow' },
-    { icon: SiGeeksforgeeks, href: 'https://www.geeksforgeeks.org/user/saksham1304', label: 'GeeksforGeeks' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/saksham-singh-rathore1304/', label: 'LinkedIn' },
+    { icon: FaXTwitter, href: 'https://x.com/saksham_1304', label: 'X' },
+    { icon: FaInstagram, href: 'https://instagram.com/saksham_0413', label: 'Instagram' },
+    { icon: SiLeetcode, href: 'https://leetcode.com/u/saksham_0413/', label: 'LeetCode' },
+    { icon: SiCodechef, href: 'https://www.codechef.com/users/saksham_0413', label: 'CodeChef' },
+    { icon: SiCodeforces, href: 'https://codeforces.com/profile/saksham_1304#', label: 'Codeforces' },
+    { icon: SiStackoverflow, href: 'https://stackoverflow.com/users/25436236/saksham-singh-rathore', label: 'Stack Overflow' },
+    { icon: SiGeeksforgeeks, href: 'https://www.geeksforgeeks.org/user/saksham_1304/', label: 'GeeksforGeeks' },
   ];
 
   return (

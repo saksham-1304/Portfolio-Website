@@ -66,17 +66,19 @@ const OpenSourceSection: React.FC = () => {
                 awesome-github-profiles
               </h5>
               <div className="flex flex-wrap gap-2 mb-3">
-                <a href="#" className="inline-flex items-center px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm hover:bg-green-600/30 transition-colors">
+                <a href="https://github.com/recodehive/awesome-github-profiles/pull/1050" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm hover:bg-green-600/30 transition-colors">
                   PR #1050
                 </a>
-                <a href="#" className="inline-flex items-center px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm hover:bg-green-600/30 transition-colors">
+                <a href="https://github.com/recodehive/awesome-github-profiles/pull/1135" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm hover:bg-green-600/30 transition-colors">
                   PR #1135
                 </a>
-                <a href="#" className="inline-flex items-center px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm hover:bg-green-600/30 transition-colors">
+                <a href="https://github.com/recodehive/awesome-github-profiles/pull/1156" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm hover:bg-green-600/30 transition-colors">
                   PR #1156
                 </a>
               </div>
-              <p className="text-gray-400 text-sm">Enhanced the project's curated list of standout GitHub profiles.</p>
+              <p className="text-gray-400 text-sm">
+                Fixed critical UI bugs including Twitter logo visibility, dark-mode link disappearance, and mobile toggle functionality issues.
+              </p>
             </div>
 
             {/* Postman-Challenge */}
@@ -86,11 +88,11 @@ const OpenSourceSection: React.FC = () => {
                 Postman-Challenge (GSSoC'24)
               </h5>
               <div className="flex flex-wrap gap-2 mb-3">
-                <a href="#" className="inline-flex items-center px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm hover:bg-blue-600/30 transition-colors">
+                <a href="https://github.com/GSSoC24/Postman-Challenge/pull/2305" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm hover:bg-blue-600/30 transition-colors">
                   PR #2305
                 </a>
               </div>
-              <p className="text-gray-400 text-sm">Improved community-driven resources and enhanced project functionality.</p>
+              <p className="text-gray-400 text-sm">Improved community-driven resources and enhanced project functionality during GSSoC'24.</p>
             </div>
           </div>
 

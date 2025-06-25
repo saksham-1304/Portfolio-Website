@@ -8,8 +8,24 @@ const ProjectsSection: React.FC = () => {
 
   const projects = [
     {
-      title: 'VibeConnect',
-      description: 'Real-time chat application built using MERN stack and Socket.IO. Enables seamless user communication with modern UI and real-time messaging capabilities.',
+      title: 'Refactora AI',
+      description: 'An AI-driven code review platform for real-time, intelligent code analysis and actionable feedback. Integrated Google Gemini API to deliver context-aware, multi-language code reviews with instant, comprehensive suggestions.',
+      image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
+      technologies: [
+        { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+        { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+        { name: 'Express', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
+        { name: 'Google Gemini API', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg' },
+        { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+        { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' }
+      ],
+      liveUrl: 'https://refactora-ai.onrender.com/',
+      githubUrl: 'https://github.com/saksham-1304/Refactora-AI',
+      featured: true,
+    },
+    {
+      title: 'VibeConnect — Audio/Video Chat Application',
+      description: 'A full-stack real-time chat application connecting users seamlessly. Built using MERN stack and Socket.io for efficient real-time messaging and instant audio/video communication with full CRUD operations.',
       image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: [
         { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
@@ -18,38 +34,25 @@ const ProjectsSection: React.FC = () => {
         { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
         { name: 'Socket.IO', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg' }
       ],
-      liveUrl: 'https://chat-app-saksham1304.vercel.app',
-      githubUrl: 'https://github.com/saksham-1304/Chat-App',
+      liveUrl: 'https://vibeconnect-k1te.onrender.com/',
+      githubUrl: 'https://github.com/saksham-1304/VibeConnect',
       featured: true,
     },
     {
-      title: 'Refactora AI',
-      description: 'Automated tool that uses Google Gemini API to review and suggest improvements to code. Helps developers write better, cleaner, and more efficient code.',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: [
-        { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-        { name: 'Google Gemini API', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg' },
-        { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-        { name: 'HTML/CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' }
-      ],
-      liveUrl: 'https://ai-code-reviewer-saksham1304.vercel.app',
-      githubUrl: 'https://github.com/saksham-1304/AI-Code-Reviewer',
-      featured: true,
-    },
-    {
-      title: 'Uber Clone App',
-      description: 'A full-stack Uber-like ride-hailing application built with MERN stack. Features user authentication, ride booking, and real-time tracking.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'EchoBrain — AI-Powered Second Brain',
+      description: 'An intelligent personal knowledge management system to seamlessly store, organize, and retrieve information. Built using MERN stack with Google Gemini AI and vector databases for AI-powered semantic search and context-aware content retrieval.',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80',
       technologies: [
         { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
         { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
         { name: 'Express', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
         { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-        { name: 'Maps API', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg' }
+        { name: 'Google Gemini AI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg' },
+        { name: 'Vector DB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' }
       ],
-      liveUrl: 'https://uber-clone-saksham1304.vercel.app',
-      githubUrl: 'https://github.com/saksham-1304/Uber-Clone-App',
-      featured: false,
+      liveUrl: 'https://echobrain-ai-powered-second-brain.onrender.com/',
+      githubUrl: 'https://github.com/saksham-1304/EchoBrain-AI-Powered-Second-Brain',
+      featured: true,
     },
   ];
 

@@ -6,8 +6,6 @@ import {
     Star,
     Code2,
     Target,
-    Zap,
-    Users,
     GitBranch,
     ExternalLink,
     Calendar,
@@ -67,20 +65,20 @@ const AchievementsSection: React.FC = () => {
                     icon: GraduationCap,
                     highlight: true
                 },
-                {
+                /*{
                   title: 'CPI 8.28/10',
                   description: 'B.S. Data Science & AI at IIT Guwahati',
                   date: '2023-2027',
                   icon: GraduationCap,
                   highlight: true
-                }
+                }*/
             ]
         }
     ]; const stats = [
         { number: 'AIR 206', label: 'Goldman Sachs Hackathon 2025', icon: Trophy },
         { number: '99.56%', label: 'AIR-5180 JEE@23', icon: Medal },
         { number: '200+', label: 'LeetCode Problems', icon: Target },
-        { number: '15+', label: 'Open Source Contributions', icon: GitBranch }
+        { number: '4', label: 'Open Source Contributions', icon: GitBranch }
     ];
     const competitiveProgramming = [
         {
@@ -94,7 +92,7 @@ const AchievementsSection: React.FC = () => {
         {
             platform: 'CodeChef',
             username: 'saksham_0413',
-            maxRating: '1357',
+            maxRating: '1462',
             url: 'https://www.codechef.com/users/saksham_0413',
             color: 'from-amber-400 to-yellow-400',
             icon: Trophy,
@@ -102,8 +100,8 @@ const AchievementsSection: React.FC = () => {
         {
             platform: 'Codeforces',
             username: 'saksham_1304',
-            maxRating: '1022',
-            url: 'https://codeforces.com/profile/saksham_1304',
+            maxRating: '1220',
+            url: 'https://codeforces.com/profile/saksham_1304#',
             color: 'from-blue-400 to-cyan-400',
             icon: Star,
         },
