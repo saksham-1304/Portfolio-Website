@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Calendar, MapPin, Briefcase, Trophy, Code2, Star } from 'lucide-react';
+import { Calendar, MapPin, Briefcase } from 'lucide-react';
 
 const ExperienceSection: React.FC = () => {
   const ref = useRef(null);
@@ -30,23 +30,25 @@ const ExperienceSection: React.FC = () => {
   ];
 
   const PositionOfResponsibility = [{
-    title: 'Member',
+    title: 'Core Team Member',
     organization: 'Zenith - The Programming Club of MANIT',
     logo: 'https://camo.githubusercontent.com/3cdfc0143106da3f5470ab1031efaa374015868a8f24151a92269a733d572388/68747470733a2f2f6d656469612e6c6963646e2e636f6d2f646d732f696d6167652f76322f43353130424151455254745f683371594372672f636f6d70616e792d6c6f676f5f3230305f3230302f636f6d70616e792d6c6f676f5f3230305f3230302f302f313633303537323231373332352f7a656e6974685f7468655f70726f6772616d6d696e675f636c75625f6f665f6d616e69745f6c6f676f3f653d3137353333313532303026763d6265746126743d2d4775635332305075572d7263753646596c30696a7176675172755267786b726f704f4d5835717a515159',
     location: 'Bhopal, Madhya Pradesh, India',
-    period: 'May 2025 - Present',
-    type: 'Full-time',
-    description: 'Active member of the programming club, contributing to competitive programming initiatives and technical events.',
+    period: '2025 - Present',
+    type: '',
+    description: 'Active core team member of the programming club, contributing to competitive programming initiatives, technical events, and fostering programming culture at MANIT.',
     achievements: [
-      'Participated in coding competitions and hackathons',
-      'Collaborated with fellow members on programming projects',
-      'Contributed to club activities and technical workshops'
+      'Leading coding competitions and hackathons organization',
+      'Mentoring junior students in competitive programming and DSA',
+      'Contributing to club activities and technical workshops',
+      'Organizing programming contests and technical events'
     ],
     technologies: [
       { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
       { name: 'Data Structures', icon: '🏗️' },
       { name: 'Algorithms', icon: '🧮' },
-      { name: 'Competitive Programming', icon: '🏆' }
+      { name: 'Competitive Programming', icon: '🏆' },
+      { name: 'Leadership', icon: '👥' }
     ]
   }];
 
@@ -72,17 +74,15 @@ const ExperienceSection: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Work Experience */}
-        {/*
+        {/* Open Source Experience */}
         <div className="mb-12 md:mb-16">
           *<h3 className="text-xl md:text-2xl font-bold text-white mb-6 md:mb-8 text-center">Work Experience</h3>
           <div className="relative">
             {/* Timeline Line */}
-            {/*
             <div className="absolute left-4 md:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-green-400 to-blue-400 hidden md:block" />
 
             <div className="space-y-8 md:space-y-12">
-              {experiences.slice(0, 3).map((exp, index) => (
+              {experiences.map((exp, index) => (
                 <motion.div
                   key={exp.title + exp.company}
                   initial={{ opacity: 0, x: -50 }}
@@ -91,7 +91,6 @@ const ExperienceSection: React.FC = () => {
                   className="relative md:ml-16"
                 >
                   {/* Timeline Dot */}
-                  {/*
                   <div className="absolute -left-12 md:-left-20 top-4 md:top-6 w-3 h-3 md:w-4 md:h-4 bg-green-400 rounded-full border-2 md:border-4 border-gray-900 hidden md:block" />
 
                   <div className="bg-black/20 backdrop-blur-sm rounded-xl p-4 md:p-8 border border-white/10 hover:border-green-400/50 transition-colors">
@@ -103,7 +102,7 @@ const ExperienceSection: React.FC = () => {
                             alt={`${exp.company} logo`}
                             className="w-12 h-12 md:w-16 md:h-16 rounded-lg object-cover border-2 border-green-400/20"
                             onError={(e) => {
-                              e.currentTarget.src = 'https://camo.githubusercontent.com/3cdfc0143106da3f5470ab1031efaa374015868a8f24151a92269a733d572388/68747470733a2f2f6d656469612e6c6963646e2e636f6d2f646d732f696d6167652f76322f43353130424151455254745f683371594372672f636f6d70616e792d6c6f676f5f3230305f3230302f636f6d70616e792d6c6f676f5f3230305f3230302f302f313633303537323231373332352f7a656e6974685f7468655f70726f6772616d6d696e675f636c75625f6f665f6d616e69745f6c6f676f3f653d3137353333313532303026763d6265746126743d2d4775635332305075572d7263753646596c30696a7176675172755267786b726f704f4d5835717a515159' + exp.company.charAt(0);
+                              e.currentTarget.src = 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=100&q=80';
                             }}
                           />
                         </div>
@@ -172,7 +171,6 @@ const ExperienceSection: React.FC = () => {
             </div>
           </div>
         </div>
-        */}
 
         {/* Position of Responsibility */}
         <div className="mb-12 md:mb-16">

@@ -39,52 +39,96 @@ const AchievementsSection: React.FC = () => {
             items: [
                 {
                     title: 'Goldman Sachs India Hackathon 2025',
-                    description: 'Achieved All India Rank 206 among thousands of participants in the prestigious Goldman Sachs India Hackathon',
-                    date: 'May 2025',
+                    description: 'Achieved All India Rank 206 among 1500+ candidates in the prestigious Goldman Sachs India Hackathon',
+                    date: 'January 2025',
                     icon: Trophy,
                     highlight: true
                 },
                 {
                     title: 'JEE 2023 - AIR 5180',
-                    description: 'Secured All India Rank 5180 among 1.2 million candidates with 99.565059 percentile in Joint Entrance Examination',
+                    description: 'Secured All India Rank 5180 among 1.2 million candidates with 99.5650 percentile - Top 0.43% nationwide',
                     date: '2023',
                     icon: Medal,
                     highlight: true
+                },
+                {
+                    title: 'CodeChef Starters 190',
+                    description: 'Achieved Global Rank 401 among thousands of participants in CodeChef Starters 190',
+                    date: '2024',
+                    icon: Code2,
+                    highlight: true
+                },
+                {
+                    title: 'CodeChef Starters 195',
+                    description: 'Achieved Global Rank 947 among thousands of participants in CodeChef Starters 195',
+                    date: '2024',
+                    icon: Code2,
+                    highlight: false
+                },
+                {
+                    title: 'Smart India Hackathon (SIH) 2024',
+                    description: 'Selected after clearing the internal round at institute level',
+                    date: '2024',
+                    icon: Trophy,
+                    highlight: false
                 }
             ]
         },
         {
-            category: 'Academic Excellence',
+            category: 'Academic & Technical Excellence',
             icon: Award,
-            color: 'from-yellow-400 to-orange-400',
+            color: 'from-blue-400 to-purple-400',
             items: [
                 {
-                    title: 'CGPA 9.16/10',
-                    description: 'B.Tech CSE at MANIT Bhopal',
+                    title: 'CGPA 8.90/10',
+                    description: 'B.Tech CSE at MANIT Bhopal - Consistent academic excellence',
                     date: '2023-2027',
                     icon: GraduationCap,
                     highlight: true
                 },
-                /*{
-                  title: 'CPI 8.28/10',
-                  description: 'B.S. Data Science & AI at IIT Guwahati',
-                  date: '2023-2027',
-                  icon: GraduationCap,
-                  highlight: true
-                }*/
+                {
+                    title: '600+ DSA Problems Solved',
+                    description: 'Across LeetCode (500+), Codeforces, CodeChef - Top 10.7% globally on competitive programming platforms',
+                    date: '2023-Present',
+                    icon: Target,
+                    highlight: true
+                },
+                {
+                    title: 'Max Rating 1735 - LeetCode',
+                    description: 'Achieved maximum rating of 1735 on LeetCode platform',
+                    date: '2024',
+                    icon: Star,
+                    highlight: false
+                },
+                {
+                    title: 'Max Rating 1550 - CodeChef',
+                    description: 'Achieved maximum rating of 1550 on CodeChef platform',
+                    date: '2024',
+                    icon: Star,
+                    highlight: false
+                },
+                {
+                    title: 'Max Rating 1443 - Codeforces',
+                    description: 'Achieved Specialist rank (1443 rating) on Codeforces platform',
+                    date: '2024',
+                    icon: Star,
+                    highlight: false
+                }
             ]
         }
-    ]; const stats = [
+    ];
+    
+    const stats = [
         { number: 'AIR 206', label: 'Goldman Sachs Hackathon 2025', icon: Trophy },
-        { number: '99.56%', label: 'AIR-5180 JEE@23', icon: Medal },
-        { number: '200+', label: 'LeetCode Problems', icon: Target },
-        { number: '4', label: 'Open Source Contributions', icon: GitBranch }
+        { number: '99.56%', label: 'JEE 2023 Percentile - AIR 5180', icon: Medal },
+        { number: '600+', label: 'DSA Problems Solved', icon: Target },
+        { number: '4+', label: 'Open Source PRs Merged', icon: GitBranch }
     ];
     const competitiveProgramming = [
         {
             platform: 'LeetCode',
             username: 'saksham_0413',
-            maxRating: '1515',
+            maxRating: '1735',
             url: 'https://leetcode.com/u/saksham_0413/',
             color: 'from-yellow-400 to-orange-400',
             icon: Code2,
@@ -92,7 +136,7 @@ const AchievementsSection: React.FC = () => {
         {
             platform: 'CodeChef',
             username: 'saksham_0413',
-            maxRating: '1462',
+            maxRating: '1550',
             url: 'https://www.codechef.com/users/saksham_0413',
             color: 'from-amber-400 to-yellow-400',
             icon: Trophy,
@@ -100,7 +144,7 @@ const AchievementsSection: React.FC = () => {
         {
             platform: 'Codeforces',
             username: 'saksham_1304',
-            maxRating: '1220',
+            maxRating: '1443',
             url: 'https://codeforces.com/profile/saksham_1304#',
             color: 'from-blue-400 to-cyan-400',
             icon: Star,

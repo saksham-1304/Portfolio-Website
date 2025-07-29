@@ -52,7 +52,7 @@ const OpenSourceSection: React.FC = () => {
           </div>
 
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Actively contributed to the open-source community as a participant in Hacktoberfest 2024, collaborating with developers worldwide.
+            Actively contributed to the open-source community as a participant in Hacktoberfest 2024, collaborating with 3+ maintainers and successfully merging 4 production-level PRs. Enhanced modularity and responsiveness of components by optimizing DOM manipulation and stylesheet structure.
           </p>
 
           {/* Pull Requests Section */}
@@ -77,7 +77,7 @@ const OpenSourceSection: React.FC = () => {
                 </a>
               </div>
               <p className="text-gray-400 text-sm">
-                Fixed critical UI bugs including Twitter logo visibility, dark-mode link disappearance, and mobile toggle functionality issues.
+                Fixed critical UI bugs including Twitter logo visibility, dark-mode link disappearance, and mobile toggle functionality issues. Enhanced modularity and responsiveness of components.
               </p>
             </div>
 
@@ -92,7 +92,7 @@ const OpenSourceSection: React.FC = () => {
                   PR #2305
                 </a>
               </div>
-              <p className="text-gray-400 text-sm">Improved community-driven resources and enhanced project functionality during GSSoC'24.</p>
+              <p className="text-gray-400 text-sm">Enhanced community-driven resources and improved project functionality during GirlScript Summer of Code 24.</p>
             </div>
           </div>
 
@@ -101,15 +101,19 @@ const OpenSourceSection: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-start text-gray-300">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0" />
-                Made successful Pull Requests to multiple repositories
+                Successfully merged 4 production-level Pull Requests across multiple repositories
               </li>
               <li className="flex items-start text-gray-300">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0" />
-                Gained hands-on experience with Git, GitHub workflow, and open-source collaboration
+                Enhanced modularity and responsiveness by optimizing DOM manipulation and stylesheet structure
               </li>
               <li className="flex items-start text-gray-300">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0" />
-                Strengthened skills in version control, issue tracking, and pull request management
+                Collaborated with 3+ maintainers and gained hands-on experience with Git, GitHub workflow
+              </li>
+              <li className="flex items-start text-gray-300">
+                <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0" />
+                Contributed to both Hacktoberfest 2024 and GirlScript Summer of Code 24
               </li>
             </ul>
           </div>

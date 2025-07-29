@@ -24,15 +24,15 @@ const ProjectsSection: React.FC = () => {
       featured: true,
     },
     {
-      title: 'VibeConnect — Audio/Video Chat Application',
-      description: 'A full-stack real-time chat application connecting users seamlessly. Built using MERN stack and Socket.io for efficient real-time messaging and instant audio/video communication with full CRUD operations.',
+      title: 'VibeConnect — Real-Time Audio/Video Chat App',
+      description: 'Scalable full-stack communication platform with instant messaging and video calling features. Engineered a MERN application integrating Stream Video SDK for real-time streaming and messaging with full CRUD operations.',
       image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: [
         { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
         { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
         { name: 'Express', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
         { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-        { name: 'Socket.IO', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg' }
+        { name: 'Stream Video SDK', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg' }
       ],
       liveUrl: 'https://vibeconnect-k1te.onrender.com/',
       githubUrl: 'https://github.com/saksham-1304/VibeConnect',
@@ -54,6 +54,21 @@ const ProjectsSection: React.FC = () => {
       githubUrl: 'https://github.com/saksham-1304/EchoBrain-AI-Powered-Second-Brain',
       featured: true,
     },
+    {
+      title: 'Weather App — Forecast and Air Quality Dashboard',
+      description: 'Location-based weather platform offering multi-day forecasts, AQI data, and UX personalization. Implemented theme toggling, weather effects, °C/°F conversion, and localStorage-based preference retention with cross-device responsiveness.',
+      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80',
+      technologies: [
+        { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+        { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+        { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+        { name: 'OpenWeatherMap API', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+        { name: 'Geolocation API', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' }
+      ],
+      liveUrl: 'https://saksham-1304.github.io/Weather-App/',
+      githubUrl: 'https://github.com/saksham-1304/Weather-App',
+      featured: true,
+    }
   ];
 
   return (
